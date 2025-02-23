@@ -10,9 +10,13 @@
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage{cite}
+\usepackage{array}
+\usepackage{longtable}
 
 \geometry{a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm}
 \onehalfspacing
+
+\setlength{\parindent}{0pt}
 
 \usepackage{helvet}
 \renewcommand\familydefault{\sfdefault}
@@ -71,111 +75,125 @@
 \newpage
 
 \section{Einleitung}
-In dieser Facharbeit wird das Thema XYZ behandelt. Der Grund für die
-Erstellung dieser Arbeit liegt in meinem persönlichen Interesse an
-	[Thema einfügen] sowie der beruflichen Relevanz im Rahmen meiner
-Tätigkeit bei der \arbeitgeber. Durch die Teilnahme am Kurs
-\kursbezeichnung konnte ich mein Wissen in diesem Bereich vertiefen
-und möchte die gewonnenen Erkenntnisse in dieser Arbeit darlegen.
+Ich bin \autor. Ich habe meinen insgesamt fünfjährigen
+Bachelorabschluss in Nursing auf den Philippinen im Jahr 2012 abgeschlossen
+und meine Anerkennung als Gesundheits- und Krankenpflegerin (GKP) in
+Deutschland im März 2024 erhalten.
+Ich habe dreieinhalb Jahre in Vollzeit in einer orthopädischen Klinik in
+Braunfels gearbeitet, bevor ich im Oktober 2024 zur Konstant Ambulanten
+Intensivpflege gewechselt bin, die nun als \arbeitgeber bekannt ist.
+Zusätzlich habe ich zwei Jahre in den Philippinen in der medizinischen und
+chirurgischen Abteilung gearbeitet und anschließend drei Jahre im OP-Complex.
+Diese Abteilung umfasst den Operationssaal, den Aufwachraum, die Endoskopie
+und den Entbindungssaal.
+Ich habe mich entschieden, in die ambulante Intensivpflege zu wechseln, da ich
+das Bedürfnis hatte, eigenständiger zu arbeiten und Neues zu lernen. Mein
+Wissen über das Thema „Beatmung“ war begrenzt, weshalb ich mich intensiver
+damit beschäftigen wollte.
 
-Ich bin \autor, geboren am \geburtsdatum, und arbeite seit [Jahr]
-bei der \arbeitgeber. Meine berufliche Laufbahn hat mich immer wieder
-mit [Thema einfügen] in Berührung gebracht, was mich dazu motiviert
-hat, mich intensiver mit dieser Thematik auseinanderzusetzen.
-Diese Facharbeit ist daher sowohl eine Zusammenfassung meiner
-bisherigen Erfahrungen als auch eine Reflexion über zukünftige
-Entwicklungen in diesem Bereich.
+\section{Biografie und Vorstellung des Patienten}
+Mein Patient ist männlich, 82 Jahre alt und wurde am 14.12.1942 geboren. Er ist
+verwitwet und lebt derzeit mit seiner Lebensgefährtin zusammen. In seiner
+Freizeit spielt er gerne Englisch Horn und war Mitglied einer Kurverwaltung in
+Bad Orb.
+Im Juni 2015 wurde bei ihm ein Tonsillenkarzinom links diagnostiziert. Im
+August 2015 erfolgte eine Tonsillektomie links mit anschließender primärer
+Radiochemotherapie im Universitätsklinikum Gießen und Marburg (UKGM).
+Am 15.06.2024 wurde eine Hypopharynx-Tamponade sowie ein plastisches
+Tracheostoma mit operativer Ligatur der A. carotis externa rechts angelegt.
+Vom 24.06.2024 bis zum 08.08.2024 befand sich der Patient in den
+Asklepios-Schwalm-Eder-Kliniken aufgrund einer respiratorischen
+Globalinsuffizienz mit Azidose und CO$_2$-Narkose infolge einer
+Sekretverlegung im Tracheostoma. Dies führte zu einem beginnenden septischen
+Schock. Während dieses Aufenthalts wurde er am 26.06.2024 und 08.07.2024 mit
+einer BiPAP-Beatmung beatmet. Am 02.07.2024 wurde eine PEG-Sonde angelegt,
+da er unter Schluckstörungen leidet.
 
-\section{Fallbezogene Arbeit}
+% \subsection{Quellen}
+% \begin{itemize}
+% 	\item \url{https://flexikon.doccheck.com/de/Tonsillenkarzinom}
+% 	\item \url{https://www.leading-medicine-guide.com/de/erkrankungen/tumoren/mandelkrebs}
+% \end{itemize}
+%
 
-\subsection{Patientenvorstellung}
-Der Patient, der aus Datenschutzgründen anonymisiert wird, ist ein 68-jähriger Mann,
-der aufgrund einer fortgeschrittenen Lungenerkrankung beatmungspflichtig wurde.
-Er leidet unter einer chronisch obstruktiven Lungenerkrankung (COPD) im Endstadium,
-die eine dauerhafte maschinelle Unterstützung der Atmung erforderlich macht.
+\section{Grunderkrankung: Mandelkrebs}
 
-\subsection{Grunderkrankung}
-COPD ist eine progressive Lungenerkrankung, die durch eine anhaltende Atemwegsverengung
-gekennzeichnet ist. Sie wird durch Rauchen, Umweltfaktoren oder genetische
-Dispositionen begünstigt. Typische Symptome sind Atemnot, Husten und vermehrte
-Schleimbildung. Die medikamentöse Behandlung umfasst Bronchodilatatoren, inhalative
-Kortikosteroide und gelegentlich Antibiotika bei Exazerbationen. In fortgeschrittenen
-Fällen wird eine invasive oder nicht-invasive Beatmung notwendig.
+\subsection{Definition}
+Mandelkrebs, auch als Tonsillenkarzinom bezeichnet, ist eine bösartige
+Erkrankung der Gaumenmandeln. Sie gehört zur Gruppe der Mund-Rachen-Tumoren
+(Oropharynxkarzinome). Männer sind dreimal häufiger betroffen als Frauen.
+Das größte Risiko für die maligne Entstehung besteht bei regelmäßigem oder
+exzessivem Konsum von Tabak und Alkohol. Zudem stellt eine Infektion mit
+Humanen Papillomviren einen wesentlichen Risikofaktor dar.
 
-\subsection{Nebendiagnosen}
-Zusätzlich zur COPD wurden bei dem Patienten arterielle Hypertonie und eine chronische
-Niereninsuffizienz festgestellt. Diese Erkrankungen beeinflussen die Beatmungstherapie,
-da Flüssigkeitsretentionen zu Lungenödemen führen können. Dies erfordert eine
-sorgfältige Anpassung der Beatmungsparameter und eine engmaschige Überwachung.
+\subsection{Merkmale der Grunderkrankung}
+Da es keine spezifischen Vorstadien gibt, ist Mandelkrebs oft schwer frühzeitig
+zu erkennen. Zu den unspezifischen Symptomen gehören Schluckbeschwerden,
+Schwellungen im Halsbereich, anhaltende Heiserkeit, Husten, Mundgeruch sowie
+Probleme beim Essen und Trinken.
 
-\subsection{Beatmungsgerät und Beatmungsform}
-Der Patient wird mit einem modernen Intensivbeatmungsgerät versorgt, dem Dräger Evita
-500. Die gewählte Beatmungsform ist PCV (Pressure Controlled Ventilation). Diese Form
-der Beatmung wird genutzt, um die Lunge vor übermäßigen Drücken zu schützen und eine
-kontrollierte Oxygenierung sicherzustellen. Der Modus wird regelmäßig an den Zustand
-des Patienten angepasst.
+\subsection{Diagnose}
+Zur Feststellung einer Diagnose können verschiedene Untersuchungen durchgeführt
+werden. Dazu gehören die Spiegeluntersuchung, die Panendoskopie, die Biopsie,
+die Sonographie, die Computertomographie, die Magnetresonanztomographie sowie
+die Szintigraphie des Rachenraumes. Der Tumor wird anschließend klassifiziert,
+unter Berücksichtigung von Metastasen in benachbarten Organen, um eine geeignete
+Therapie festzulegen. Die Stadieneinteilung des Mandelkrebses unterscheidet sich
+nicht wesentlich von der allgemeinen T-Klassifikation der Tumoren. Je nach Größe
+oder Ausdehnung des Tumors gibt es folgende Stadien: Im T1-Stadium ist der Tumor
+kleiner als 2 cm, im T2-Stadium hat der Tumor eine Größe von 2 bis 4 cm. Das T3-Stadium
+beschreibt einen Tumor, der größer als 4 cm ist. Im T4-Stadium hat der Tumor
+unabhängig von der Größe umliegende Gewebestrukturen infiltriert. Am häufigsten
+sind hiervon der Hals, die Wangen und die Zungengrundmuskulatur betroffen.
 
-\subsection{Beatmungsparameter}
-Die für den Patienten eingestellten Werte am Beatmungsgerät sind:
-\begin{itemize}
-	\item PEEP: 8 cmH$_2$O
-	\item FiO$_2$: 40%
-	\item Atemfrequenz: 16/min
-	\item Inspirationsdruck: 18 cmH$_2$O
-\end{itemize}
-Diese Parameter sind so gewählt, dass eine ausreichende Oxygenierung sichergestellt
-und eine Hyperkapnie vermieden wird.
+\subsection{Medikamentöse Therapie}
 
-\subsection{Alarmgrenzen der Beatmung}
-Die Alarmgrenzen dienen dazu, kritische Zustände frühzeitig zu erkennen und
-entsprechend zu reagieren. Beim Patienten sind folgende Alarmgrenzen eingestellt:
-\begin{itemize}
-	\item Obere Druckgrenze: 30 cmH$_2$O
-	\item Untere Druckgrenze: 5 cmH$_2$O
-	\item Apnoe-Alarm: 20 Sekunden
-\end{itemize}
-Diese Werte wurden auf Basis der individuellen Lungenfunktion des Patienten festgelegt.
+Der Patient hat aktuell folgende Medikamente nach AAO vom 8.8.2024.
 
-\subsection{Beatmungszugang}
-Der Patient wird invasiv über eine Trachealkanüle (TK) beatmet. Eine nicht-invasive
-Beatmung (NIV) war aufgrund der Schwere der Erkrankung nicht mehr möglich. Nachfolgend
-eine Gegenüberstellung der Beatmungszugänge:
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{3cm}|p{5cm}|}
+	\hline
+	\textbf{Wirkstoff}     & \textbf{Stärke} & \textbf{Form} & \textbf{Täglich} & \textbf{Hinweise}        \\
+	\hline
+	Insulin lispro         & 100 E           & Lösung        & nach Schema      &                          \\
+	\hline
+	Melperon               & 25 mg           & Tabl          & 0-0-1            &                          \\
+	\hline
+	Torasemid              & 10 mg           & Tabl          & 1-0-0            &                          \\
+	\hline
+	Salbutamol             & 5 mg            & LOV           & nach Bedarf      & zum Inhalieren           \\
+	\hline
+	Ipratropium Kation     & 0.25 mg         & LOV           & nach Bedarf      & zum Inhalieren           \\
+	\hline
+	Piritramid             & 7.5 mg/ml       & Amp           & ½ Amp. s.c.      & Bedarfsschmerzmedikation \\
+	\hline
+	Insulin lispro isophan & 25/75           & Susp          & 30 IE            &                          \\
+	\hline
+	Acetylsalicylsäure     & 100 mg          & Tabl          & 1-0-0            &                          \\
+	\hline
+	Atorvastatin           & 20 mg           & Tabl          & 1-0-0            &                          \\
+	\hline
+	Escitalopram           & 10 mg           & Tabl          & 1-0-0            &                          \\
+	\hline
+	Ciprofloxacin          & 500 mg          & Tabl          & 1-0-0            & bis Packungsende         \\
+	\hline
+	Mirtazapin             & 15 mg           & Tabl          & 0-0-1            &                          \\
+	\hline
+	Lorazepam              & 1 mg            & Tabl          & ½ Tbl. über PEG  & Bedarf max. 3x tägl.     \\
+	\hline
+\end{longtable}
 
-\begin{table}[h]
-	\centering
-	\begin{tabular}{|l|c|c|}
-		\hline
-		                    & NIV     & Invasive Beatmung \\
-		\hline
-		Mobilität           & Hoch    & Eingeschränkt     \\
-		Weaning-Möglichkeit & Gut     & Gering            \\
-		Infektionsrisiko    & Niedrig & Hoch              \\
-		\hline
-	\end{tabular}
-	\caption{Vergleich der Beatmungszugänge}
-\end{table}
+\subsection{Verlauf}
+In den meisten Fällen wurde der Tumor mit einem großen Sicherheitsabstand chirurgisch
+entfernt. Nach der Operation folgte in einigen Fällen eine Radiotherapie, Chemotherapie
+oder eine kombinierte Radiochemotherapie. Die Prognose hängt sehr stark vom Stadium
+der Diagnose ab, und Metastasen beeinflussen den Krankheitsverlauf negativ. So ergibt
+sich für den Mandelkrebs eine 5-Jahres-Überlebensrate, die je nach Stadium unterschiedlich
+ist. Im T1-Stadium leben etwa 80–90\% der Patienten noch fünf Jahre nach der Diagnose,
+im T2-Stadium sind es ca. 70–75\%, im T3-Stadium liegt die Überlebensrate bei etwa
+40–50\%, und im T4-Stadium beträgt sie nur noch ca. 10–35\%.
 
-\subsection{Pflegetherapeutische Maßnahmen}
-Um die bestmögliche Versorgung des Patienten sicherzustellen, werden folgende
-pflegerische Maßnahmen durchgeführt:
-\begin{itemize}
-	\item Inhalationstherapie zur Sekretolyse
-	\item Regelmäßiges Absaugen zur Entfernung von Bronchialsekreten
-	\item Lagerungswechsel zur Pneumonieprophylaxe
-	\item Mobilisation im Rahmen der physiotherapeutischen Betreuung
-\end{itemize}
-Diese Maßnahmen tragen zur Erhaltung der Lungenfunktion und zur Prävention von
-Komplikationen bei.
+\subsection{Nebendiagnose}
 
-% Fazit
-\section{Fazit}
-Die Betreuung beatmungspflichtiger Patienten erfordert ein interdisziplinäres
-Zusammenwirken von Pflegekräften, Ärzten und Therapeuten. Der hier dargestellte
-Fall zeigt, wie wichtig eine individuelle Anpassung der Beatmungstherapie ist.
-Langfristig könnten technologische Fortschritte eine bessere Autonomie der Patienten
-ermöglichen und die Beatmungssituation weiter optimieren.
-
-\newpage
 \bibliographystyle{plain}
 \bibliography{Facharbeit}
 
