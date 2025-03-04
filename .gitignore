@@ -18,6 +18,8 @@
 **/*.nls
 **/*.toc
 **/*.dvi
+**/*.rtf
+**/*.rtf#
 **/*.out.ps
 !**/assets/*.pdf
 **/*.synctex.gz
